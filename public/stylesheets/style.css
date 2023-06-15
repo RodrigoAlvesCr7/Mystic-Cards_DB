@@ -1,0 +1,165 @@
+/*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- */
+/*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- */
+/*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- *//*---HEADER ---- */
+  
+body {
+  height: 85vh;
+  width: 85vw;
+  background: linear-gradient(
+    90deg,
+      rgba(65, 185, 131, 1) 0%,
+      rgba(0, 212, 255, 1) 100%
+  );
+}
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/*--USERNAME--*//*--USERNAME--*//*--USERNAME--*//*--USERNAME--*//*--USERNAME--*//*--USERNAME--*//*--USERNAME--*//*--USERNAME--*//*--USERNAME--*/
+#UsernameMain{
+font-family: 'MV Boli', sans-serif;
+padding: 10px;
+border-radius: 10px;
+font-size: 25px;
+background-color: #000000;
+border: 2px solid white;
+margin-bottom: 10px;
+text-decoration: none;
+color: white;
+flex-direction: column;
+}
+
+#UsernameMain input{
+border-radius: 7px;
+margin-top: 0px;
+padding: 0px;
+margin-bottom: 10px;
+flex-direction: column;
+text-align: center;
+}
+
+/*--PASSWORD--*//*--PASSWORD--*//*--PASSWORD--*//*--PASSWORD--*//*--PASSWORD--*//*--PASSWORD--*//*--PASSWORD--*//*--PASSWORD--*//*--PASSWORD--*/
+#PasswordMain{
+font-family: 'MV Boli', sans-serif;
+padding: 10px;
+border-radius: 10px;
+font-size: 25px;
+background-color: #000000;
+border: 2px solid white;
+margin-bottom: 10px;
+text-decoration: none;
+color: white;
+flex-direction: column;
+}
+
+#PasswordMain input{
+border-radius: 7px;
+margin-top: 0px;
+padding: 0px;
+margin-bottom: 10px;
+flex-direction: column;
+text-align: center;
+}
+
+/*--BUTTONS--*//*--BUTTONS--*//*--BUTTONS--*//*--BUTTONS--*//*--BUTTONS--*//*--BUTTONS--*//*--BUTTONS--*//*--BUTTONS--*//*--BUTTONS--*/
+#logsRegsBtns{
+text-align: center;
+display: flex;
+flex-direction: column;
+} 
+  
+  #logsRegsBtns a:hover{
+  background-color: #000000;
+  transition: ease-in;
+  transition-duration: 0.5s;
+  }
+
+#logsRegsBtns a{
+font-size: 20px;
+padding: 20px 40px;
+text-decoration: none;
+background-color: #005f63;
+border-radius: 10px;
+border: 2px solid white;
+margin-bottom: 20px;
+}
+
+#logsRegsBtns a:hover{
+background-color: #000000;
+transition: ease-in;
+transition-duration: 0.5s;
+}
+
+#headers {
+text-align: center;
+margin-bottom: 30px;
+}
+
+#headers h1, #headers h3 {
+text-align: center;
+color: black;
+text-shadow: 3px 3px rgb(255, 242, 0);
+}
+
+#headers h1{
+font-size: 60px;
+}
+
+#headers h3{
+font-size: 30px;
+}
+
+body {
+padding: 50px;
+font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/* text-align: center; */
+}
+
+a {
+color: #00B7FF;
+}
+
+.warning {
+color: darkred;
+font-size: larger;
+}
+
+#matches,
+#scores {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+#matches section,
+#scores section {
+background-color: crimson;
+color: white;
+margin: 5px;
+padding: 5px;
+}
+
+#scores td {
+padding: 5px 20px;
+}
+
+/* Game CSS*/
+#game {
+position: relative;
+}
+
+button.game {
+font-size: 1.5em;
+background-color: #2ea44f;
+color: white;
+border: 1px solid rgba(27, 31, 35, .15);
+border-radius: 6px;
+text-align: center;
+font-weight: bold;
+cursor: pointer;
+}

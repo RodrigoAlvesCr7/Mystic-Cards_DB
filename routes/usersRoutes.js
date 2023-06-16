@@ -23,7 +23,7 @@ router.get('/auth', auth.verifyAuth, async function (req, res, next) {
 });
 
 // Register
-router.post('/', async function (req, res, next) {
+router.post('', async function (req, res, next) {
     console.log(req.body)
     try {
         console.log("Register player ");

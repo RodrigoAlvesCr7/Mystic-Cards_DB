@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-const usersRouter = require("./routes/usersRoutes");
+const usersRouter = require(path.join(__dirname,"./routes/usersRoutes"));
 const gamesRouter = require("./routes/gamesRoutes");
 const playsRouter = require("./routes/playsRoutes");
 const scoresRouter = require("./routes/scoresRoutes");
